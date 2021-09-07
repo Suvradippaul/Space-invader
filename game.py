@@ -1,22 +1,56 @@
 import pygame
 import random
 import math
+
+import sys
+import os
+
 pygame.init()
 
 screen_width = 800
 screen_height = 600
 screen = pygame.display.set_mode((screen_width,screen_height))
-background = pygame.image.load("background.png")
+
+def resource_path(relative_path):
+    try:
+    # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+asset_background = resource_path('assets/images/background.png')
+background = pygame.image.load(asset_background)
+
+asset_icon = resource_path('assets/images/ufo.png')
+icon = pygame.image.load(asset_icon)
+
+asset_sound = resource_path('assets/audios/background_music.mp3')
+background_sound = pygame.mixer.music.load(asset_sound)
+
+asset_playerimg = resource_path('assets/images/space-invaders.png')
+playerimg = pygame.image.load(asset_playerimg)
+
+asset_bulletimg = resource_path('assets/images/bullet.png')
+bulletimg = pygame.image.load(asset_bulletimg)
+
+asset_over_font = resource_path('assets/fonts/RAVIE.TTF')
+over_font = pygame.font.Font(asset_over_font,60)
+
+asset_font = resource_path('assets/fonts/comicbd.ttf')
+font = pygame.font.Font(asset_font,32)
+
 
 pygame.display.set_caption("Space Invader")
-icon = pygame.image.load("ufo.png")
+
 pygame.display.set_icon(icon)
 
-background_sound = pygame.mixer.music.load("background_music.mp3")
+
 pygame.mixer.music.play(-1)
 
 clock = pygame.time.Clock()
-playerimg = pygame.image.load("space-invaders.png")
+
 playerX = 370
 playerY = 470
 playerx_change = 0
@@ -30,24 +64,31 @@ enemyY_change = []
 no_of_enemies = 10
 
 for i in range(no_of_enemies):
-    enemyimg.append(pygame.image.load("enemy3.png"))
-    enemyimg.append(pygame.image.load("enemy4.png"))
+
+    enemy3 = resource_path('assets/images/enemy3.png')
+    enemyimg.append(pygame.image.load(enemy3))
+
+    enemy4 = resource_path('assets/images/enemy4.png')
+    enemyimg.append(pygame.image.load(enemy4))
+    
+
+    
     enemyX.append(random.randint(0,736))
     enemyY.append(random.randint(0,150))
     enemyX_change.append(5)
     enemyY_change.append(20)
 
-bulletimg = pygame.image.load("bullet.png")
+
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
 bulletY_change = 10
 bullet_state = "ready"
 
-over_font = pygame.font.Font("RAVIE.TTF",60)
+
 score = 0
 
-font = pygame.font.Font('comicbd.ttf',32)
+
 
 def show_score():
     score_value = font.render("SCORE " + str(score), True, (255,255,255))
