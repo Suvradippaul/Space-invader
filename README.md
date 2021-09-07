@@ -6,11 +6,11 @@ This is a space invader game in python 3 using pygame
 Here are some screenshots of this game
 
 [<img src="https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot1.png"
-    alt="Home screen" width= "316" height = "260">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot1.png)
+    alt="Home screen" width= "270" height = "240">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot1.png)
 [<img src="https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot2.png"
-    alt="Home screen" width= "316" height = "260">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot2.png)
+    alt="Home screen" width= "270" height = "240">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot2.png)
 [<img src="https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot3.png"
-    alt="Home screen" width= "316" height = "260">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot3.png)
+    alt="Home screen" width= "270" height = "240">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot3.png)
 
 
 # Running the Game
