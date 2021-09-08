@@ -1,7 +1,9 @@
-# Space-invader
-This is a space invader game in python 3 using pygame
+<h1 align="center"> Space-invader </h1>
 
-# Screenshots
+This is a space invader game scripted in python using ```Pygame``` library.
+Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
+
+## Screenshots
 
 Here are some screenshots of this game
 
@@ -13,7 +15,7 @@ Here are some screenshots of this game
     alt="Home screen" width= "270" height = "240">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot3.png)
 
 
-# Running the Game
+## Running the Game
 
 - Download the [Game.zip](https://github.com/Suvradippaul/Space-invader/blob/master/Game.zip) and extract it.
 
