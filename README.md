@@ -17,7 +17,7 @@ Here are some screenshots of this game
 
 ## Running the Game
 
-- Download the [Game.zip](https://github.com/Suvradippaul/Space-invader/blob/master/Game.zip) and extract it.
+- Download the [Game.zip](https://github.com/Suvradippaul/Space-invader/blob/master/Game.zip)(made using CxFreeze) and extract it.
 
 - Double click the **Space Invader.exe** to start the game.
 
@@ -29,5 +29,7 @@ Here are some screenshots of this game
 
 - Don't the let the **Enemies** come too close to your spaceship.
 
+Enjoy the game xD
 
-Happy Gaming xD
+### Contributions
+Feel free to make a PR for any kind of change you want to have in this project.
