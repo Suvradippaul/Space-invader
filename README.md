@@ -1,5 +1,7 @@
 <h1 align="center"> Space-invader </h1>
-<h2 align="center" > This is a space invader game in python using pygame library </h2>
+
+This is a space invader game scripted in python using ```Pygame``` library.
+Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
 
 ## Screenshots
 
