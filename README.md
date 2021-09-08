@@ -1,7 +1,7 @@
-# Space-invader
-This is a space invader game in python 3 using pygame
+<h1 align="center"> Space-invader </h1>
+<h2 align="center" > This is a space invader game in python using pygame library </h2>
 
-# Screenshots
+## Screenshots
 
 Here are some screenshots of this game
 
@@ -13,7 +13,7 @@ Here are some screenshots of this game
     alt="Home screen" width= "270" height = "240">](https://github.com/Suvradippaul/Space-invader/blob/master/assets/Screenshots/Screenshot3.png)
 
 
-# Running the Game
+## Running the Game
 
 - Download the [Game.zip](https://github.com/Suvradippaul/Space-invader/blob/master/Game.zip) and extract it.
 
