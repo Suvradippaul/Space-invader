@@ -138,6 +138,8 @@ def gameloop():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 in_game = False
+                pygame.quit()
+                sys.exit()
 
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_LEFT:
